@@ -1,0 +1,20 @@
+{
+  "data":{
+    "account_summary":[
+      {
+        "aggregation":{
+          "activeAccounts":{
+            "value":"0"
+          },
+          "deletedAccounts":{
+            "value":"1"
+          },
+          "holdAccounts":{
+            "value":"3"
+          }
+        },
+        "accountHolder":"John"
+      }
+    ]
+  }
+}

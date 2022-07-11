@@ -1,0 +1,281 @@
+{
+    "features": [
+      {
+        "name": "lost 10$",
+        "weight": 1.0,
+        "aesthPos": 0.0,
+        "aesthNeg": 0.0,
+        "ethPos": 0.0,
+        "ethNeg": 0.25,
+        "epPos": 1.0,
+        "epNeg": 0.0,
+        "affPos": 0.75,
+        "affNeg": 0.25
+      },
+      {
+        "name": "blond hair",
+        "weight": 1.0,
+        "aesthPos": 1.0,
+        "aesthNeg": 0.0,
+        "ethPos": 0.0,
+        "ethNeg": 0.0,
+        "epPos": 1.0,
+        "epNeg": 0.0,
+        "affPos": 0.25,
+        "affNeg": 0.25
+      }
+    ],
+    "beliefs": {
+        "featuresSelf": [
+            {
+              "name": "blond hair",
+              "weight": 1.0,
+              "aesthPos": 1.0,
+              "aesthNeg": 0.0,
+              "ethPos": 0.0,
+              "ethNeg": 0.0,
+              "epPos": 1.0,
+              "epNeg": 0.0,
+              "affPos": 0.25,
+              "affNeg": 0.25
+            }
+        ],
+        "actionTypes": {
+            "return": "positive",
+            "keep": "negative",
+            "ignore": "nil",
+            "approach": "positive",
+            "avoid": "avoid"
+        },
+        "featureToActions": [
+            {
+                "source": "lost 10$",
+                "destination": "return",
+                "strength": 1.0,
+                "truthValue": 1.0
+            },
+            {
+                "source": "lost 10$",
+                "destination": "keep",
+                "strength": 1.0,
+                "truthValue": 1.0
+            },
+            {
+                "source": "lost 10$",
+                "destination": "ignore",
+                "strength": 1.0,
+                "truthValue": 1.0
+            },
+            {
+                "source": "blond hair",
+                "destination": "approach",
+                "strength": 1.0,
+                "truthValue": 1.0
+            },
+            {
+                "source": "blond hair",
+                "destination": "avoid",
+                "strength": 1.0,
+                "truthValue": 1.0
+            }
+        ],
+        "actionToGoals": [
+            {
+                "source": "return",
+                "destination": "social contacts",
+                "strength": 0.75,
+                "truthValue": 1.0
+            },
+            {
+                "source": "return",
+                "destination": "prosperity",
+                "strength": -0.5,
+                "truthValue": 1.0
+            },
+            {
+                "source": "keep",
+                "destination": "social contacts",
+                "strength": -1.0,
+                "truthValue": 1.0
+            },
+            {
+                "source": "keep",
+                "destination": "prosperity",
+                "strength": 1.0,
+                "truthValue": 1.0
+            },
+            {
+                "source": "ignore",
+                "destination": "social contacts",
+                "strength": 0.0,
+                "truthValue": 1.0
+            },
+            {
+                "source": "ignore",
+                "destination": "prosperity",
+                "strength": 0.0,
+                "truthValue": 1.0
+            },
+            {
+                "source": "approach",
+                "destination": "social contacts",
+                "strength": 0.5,
+                "truthValue": 1.0
+            },
+            {
+                "source": "approach",
+                "destination": "prosperity",
+                "strength": -0.25,
+                "truthValue": 1.0
+            },
+            {
+                "source": "avoid",
+                "destination": "social contacts",
+                "strength": 0.0,
+                "truthValue": 1.0
+            },
+            {
+                "source": "avoid",
+                "destination": "prosperity",
+                "strength": 0.0,
+                "truthValue": 1.0
+            }
+        ],
+        "goalAmbitions": {
+            "social contacts": 0.5,
+            "prosperity": 0.75
+        }
+    },
+    "weightParameters": {
+        "idtWeight": 0.5,
+        "satisfactionWeight": 0.5,
+        "similarityWeights": {
+            "ethicsIndicative": 0.1,
+            "ethicsCounter": 0.1,
+            "affordancesIndicative": 0.1,
+            "affordancesCounter": 0.1,
+            "aestheticsIndicative": 0.1,
+            "aestheticsCounter": 0.1,
+            "epistemicsIndicative": 0.1,
+            "epistemicsCounter": 0.1
+        },
+        "dissimilarityWeights": {
+            "ethicsIndicative": 0.1,
+            "ethicsCounter": 0.1,
+            "affordancesIndicative": 0.1,
+            "affordancesCounter": 0.1,
+            "aestheticsIndicative": 0.1,
+            "aestheticsCounter": 0.1,
+            "epistemicsIndicative": 0.1,
+            "epistemicsCounter": 0.1
+        },
+        "relevanceWeightMatrix":
+            [ 0.1, 0.1,
+              0.1, 0.1,
+              0.1, 0.1,
+              0.1, 0.1,
+              0.1, 0.1,
+              0.1, 0.1,
+              0.1, 0.1 ],
+        "relevanceRowMapping": {
+            "good": 0,
+            "bad": 1,
+            "positive": 2,
+            "negative": 3,
+            "change": 4,
+            "avoid": 5,
+            "nil": 6
+        },
+        "useIntentionsWeightMatrix":
+            [ 1.0, 0.0,
+              0.0, 1.0,
+              0.0, 0.0,
+              0.0, 0.0,
+              0.0, 0.0,
+              0.0, 0.0,
+              0.0, 0.0,
+              0.0, 0.0,
+              0.0, 0.0,
+              0.0, 0.0 ],
+        "useIntentionsRowMapping": {
+            "uiPos": 0,
+            "uiNeg": 1,
+            "simUiPos": 2,
+            "simUiNeg": 3,
+            "disUiPos": 4,
+            "disUiNeg": 5,
+            "beaUiPos": 6,
+            "beaUiNeg": 7,
+            "uglUiPos": 8,
+            "uglUiNeg": 9
+        },
+        "engagementWeightMatrix":
+            [ 0.2, 0.0,
+              0.0, 0.2,
+              0.2, 0.0,
+              0.0, 0.2,
+              0.2, 0.0,
+              0.0, 0.2,
+              0.2, 0.0,
+              0.0, 0.2,
+              0.2, 0.0,
+              0.0, 0.2,
+              0.0, 0.0,
+              0.0, 0.0,
+              0.0, 0.0,
+              0.0, 0.0,
+              0.0, 0.0,
+              0.0, 0.0,
+              0.0, 0.0,
+              0.0, 0.0,
+              0.0, 0.0,
+              0.0, 0.0,
+              0.0, 0.0,
+              0.0, 0.0,
+              0.0, 0.0,
+              0.0, 0.0,
+              0.0, 0.0,
+              0.0, 0.0 ],
+        "engagementRowMapping": {
+            "aid": 0,
+            "obstacle": 1,
+            "beautiful": 2,
+            "ugly": 3,
+            "realistic": 4,
+            "unrealistic": 5,
+            "relevant": 6,
+            "irrelevant": 7,
+            "valencePos": 8,
+            "valenceNeg": 9,
+            "simValPos": 10,
+            "simValNeg": 11,
+            "disValPos": 12,
+            "disValNeg": 13,
+            "simRel": 14,
+            "simIrr": 15,
+            "disRel": 16,
+            "disIrr": 17,
+            "beaValPos": 18,
+            "beaValNeg": 19,
+            "uglValPos": 20,
+            "uglValNeg": 21,
+            "beaRel": 22,
+            "beaIrr": 23,
+            "uglRel": 24,
+            "uglIrr": 25
+        },
+        "decisionWeightMatrix":
+            [ 0.33, 0.33, 0.33,
+              0.33, 0.33, 0.33,
+              0.33, 0.33, 0.33,
+              0.33, 0.33, 0.33,
+              0.33, 0.33, 0.33 ],
+        "decisionRowMapping": {
+            "positive": 0,
+            "negative": 1,
+            "avoid": 2,
+            "change": 3,
+            "nil": 4
+        }
+    }
+}
