@@ -59,4 +59,5 @@ public class AllActions {
     public void setPositive(double positive) {
         this.positive = positive;
     }
+
 }

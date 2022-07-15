@@ -5,22 +5,22 @@ package AdvancedVersion;
  * @Description: all features observed.
  */
 public class AllFeatures {
-    private BlondHairFeature blondHairFeature;
-    private LostMoneyFeature lostMoneyFeature;
+    private BlondHairFeature blondHair;
+    private LostMoneyFeature lost10;
 
-    public BlondHairFeature getBlondHairFeature() {
-        return blondHairFeature;
+    public BlondHairFeature getBlondHair() {
+        return blondHair;
     }
 
-    public LostMoneyFeature getLostMoneyFeature() {
-        return lostMoneyFeature;
+    public LostMoneyFeature getLost10() {
+        return lost10;
     }
 
-    public void setBlondHairFeature(BlondHairFeature blondHairFeature) {
-        this.blondHairFeature = blondHairFeature;
+    public void setBlondHair(BlondHairFeature blondHair) {
+        this.blondHair = blondHair;
     }
 
-    public void setLostMoneyFeature(LostMoneyFeature lostMoneyFeature) {
-        this.lostMoneyFeature = lostMoneyFeature;
+    public void setLost10(LostMoneyFeature lost10) {
+        this.lost10 = lost10;
     }
 }

@@ -1,20 +1,10 @@
 {
-  "data":{
-    "account_summary":[
-      {
-        "aggregation":{
-          "activeAccounts":{
-            "value":"0"
-          },
-          "deletedAccounts":{
-            "value":"1"
-          },
-          "holdAccounts":{
-            "value":"3"
-          }
-        },
-        "accountHolder":"John"
-      }
-    ]
-  }
+  "FeatureSatisfaction": {
+    "nil": 0.198,
+    "negative": 0.23925,
+    "change": 0,
+    "avoid": 0,
+    "positive": 0.462
+  },
+  "Action": "return"
 }

@@ -12,11 +12,11 @@
     "indicative": 0.75
   },
   "Similarity": {
-    "blond hair": {
+    "blondHair": {
       "counterIndicative": 0,
       "indicative": 1
     },
-    "lost 10$": {
+    "lost10": {
       "counterIndicative": 0.14523687,
       "indicative": 0
     }
@@ -26,11 +26,11 @@
     "indicative": 0.5
   },
   "UseIntentions": {
-    "blond hair": {
+    "blondHair": {
       "counterIndicative": 0,
       "indicative": 0.03125
     },
-    "lost 10$": {
+    "lost10": {
       "counterIndicative": 0,
       "indicative": 0.125
     }
@@ -40,8 +40,8 @@
     "indicative": 0.625
   },
   "Satisfaction": {
-    "blond hair": 0.2640625,
-    "lost 10$": 0.30625
+    "blondHair": 0.2640625,
+    "lost10": 0.30625
   },
   "TradeoffTotal": 0.53125,
   "UseIntentionsTotal": {
@@ -49,11 +49,11 @@
     "indicative": 0.078125
   },
   "Relevance": {
-    "blond hair": {
+    "blondHair": {
       "counterIndicative": 0.75,
       "indicative": 0.5
     },
-    "lost 10$": {
+    "lost10": {
       "counterIndicative": 0.5,
       "indicative": 0.75
     }
@@ -64,38 +64,38 @@
     "indicative": 0.75
   },
   "ActionTendencies": {
-    "blond hair": {
+    "blondHair": {
       "avoid": 0,
       "approach": 0.03125
     },
-    "lost 10$": {
+    "lost10": {
       "keep": 0.125,
       "ignore": 0,
       "return": 0
     }
   },
   "Engagement": {
-    "blond hair": {
+    "blondHair": {
       "counterIndicative": 0.25,
       "indicative": 0.6000
     },
-    "lost 10$": {
+    "lost10": {
       "counterIndicative": 0.25,
       "indicative": 0.65
     }
   },
   "Valence": {
-    "blond hair": {
+    "blondHair": {
       "counterIndicative": 0.25,
       "indicative": 0.25
     },
-    "lost 10$": {
+    "lost10": {
       "counterIndicative": 0.5,
       "indicative": 0.75
     }
   },
   "Tradeoff": {
-    "blond hair": 0.5125,
-    "lost 10$": 0.55
+    "blondHair": 0.5125,
+    "lost10": 0.55
   }
 }
