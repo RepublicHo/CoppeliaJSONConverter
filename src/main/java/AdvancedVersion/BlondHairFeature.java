@@ -2,7 +2,12 @@ package AdvancedVersion;
 /**
  * @Author Anthony Z.
  * @Date 15/7/2022
- * @Description:
+ * @Description: Blond Hair is one of the features observed in the
+ * CV system, as an example provided by Thomas.
+ *
+ * In practice, we will be dealing with some specific problem and
+ * the corresponding features, actions, and goals.
+ * In that case, this class is to be modified.
  */
 public class BlondHairFeature {
     double avoid;

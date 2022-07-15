@@ -2,7 +2,13 @@ package AdvancedVersion;
 /**
  * @Author Anthony Z.
  * @Date 15/7/2022
- * @Description: all features observed.
+ * @Description: All features observed.
+ *
+ * In practice, we will be dealing with some specific problem and
+ * the corresponding features, actions, and goals.
+ *
+ * An example:
+ *
  */
 public class AllFeatures {
     private BlondHairFeature blondHair;

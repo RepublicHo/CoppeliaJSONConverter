@@ -2,7 +2,9 @@ package AdvancedVersion;
 /**
  * @Author Anthony Z.
  * @Date 10/7/2022
- * @Description:
+ * @Description: All actions towards all features.
+ * In practice, we will be dealing with some specific problem and
+ * the corresponding features, actions, and goals.
  *
  * In the example json file provided by Baier Thomas,
  * the tokens {"blond hair", "lost 10$"} correspond to
@@ -11,7 +13,9 @@ package AdvancedVersion;
  * {"keep", "ignore", "return"} is the set of actions
  * related to feature "lost 10$".
  *
- * The "blond hair' -> "avoid", "approach" setup is just an example.
+ * All, like "blond hair' -> "avoid", "approach" setup
+ * are just examples. When dealing with more complex
+ * world affective model, the fields should be modified.
  */
 public class AllActions {
     private double nil;
@@ -19,6 +23,14 @@ public class AllActions {
     private double change;
     private double avoid;
     private double positive;
+
+    AllActions(double nil, double negative, double change, double avoid, double positive){
+        this.nil = nil;
+        this.negative = negative;
+        this.change = change;
+        this.positive = positive;
+        this.avoid = avoid;
+    }
 
     public double getNil() {
         return nil;
@@ -59,5 +71,6 @@ public class AllActions {
     public void setPositive(double positive) {
         this.positive = positive;
     }
+
 
 }
