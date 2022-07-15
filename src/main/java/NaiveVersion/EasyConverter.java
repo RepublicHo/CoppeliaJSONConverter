@@ -1,3 +1,5 @@
+package NaiveVersion;
+
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import java.io.IOException;
