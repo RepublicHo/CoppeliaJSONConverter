@@ -7,7 +7,7 @@ import java.util.List;
  * @Description:
  */
 public class DimensionDetails {
-    private AllActions allActions;
+    private AllActions featureSatisfaction;
     private String action;
     private Indicative relevanceTotal;
     private List<Indicative> similarity;
@@ -26,7 +26,7 @@ public class DimensionDetails {
     private List<Feature> tradeoff;
 
     public AllActions getAllActions() {
-        return allActions;
+        return featureSatisfaction;
     }
 
     public double getTradeoffTotal() {
@@ -86,7 +86,7 @@ public class DimensionDetails {
     }
 
     public void setAllActions(AllActions allActions) {
-        this.allActions = allActions;
+        this.featureSatisfaction = allActions;
     }
 
     public String getAction() {
@@ -160,6 +160,8 @@ public class DimensionDetails {
     public void setValenceTotal(List<Indicative> valenceTotal) {
         this.valenceTotal = valenceTotal;
     }
+
+    // Builder Pattern
     //    public static class Builder{
 //        private AllActions allActions;
 //        private String action;

@@ -19,8 +19,7 @@ import java.util.Map;
  *
  */
 public class EasyConverter {
-    private String variable;
-    private String num;
+
 
     public static String readFileAsString(String file) throws IOException {
         return new String(Files.readAllBytes(Paths.get(file)));
