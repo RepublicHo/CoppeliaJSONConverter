@@ -164,12 +164,6 @@ public class GetJSON{
 //        System.out.println(temp.getLost10().getIndicative());
         return (Features) temp.clone();
     }
-    /**
-     * Parse FeatureSatisfaction and return the clone of the object,
-     * which will be stored in the dimensionDetails.
-     * Shallow clone can meet the requirements, given we wouldn't modify
-     * the data yet.
-     */
 
     private DimensionDetails getDimensionDetails(){
         return dimensionDetails;
