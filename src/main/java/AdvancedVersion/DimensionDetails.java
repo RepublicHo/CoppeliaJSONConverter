@@ -1,5 +1,4 @@
 package AdvancedVersion;
-import java.util.List;
 
 /**
  * @Author Anthony Z.
@@ -8,10 +7,9 @@ import java.util.List;
  *
  * This class is used in GetJSON class, where a new DimensionDetails
  * is initialized as GetJSON class is initialized,
- * so that guys for NLP part can directly get parameters from
+ * so that guys for NLP part can directly get parameters from dimensionDetails.
  *
- * Builder pattern is not used here. If considered better, it can be used
- * to replace setters.
+ *
  */
 public class DimensionDetails {
     private AllActions featureSatisfaction;

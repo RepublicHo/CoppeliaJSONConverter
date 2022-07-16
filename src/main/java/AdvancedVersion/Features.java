@@ -4,7 +4,10 @@ package AdvancedVersion;
  * @Date 10/7/2022
  * @Description:
  * An example:
- *
+"Tradeoff": {
+"blondHair": 0.5125,
+"lost10": 0.55
+}
  */
 public class Features implements Cloneable{
     private double blondHair;

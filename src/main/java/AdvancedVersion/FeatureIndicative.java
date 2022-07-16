@@ -4,6 +4,16 @@ package AdvancedVersion;
  * @Author Anthony Z.
  * @Date 16/7/2022
  * @Description:
+ * Example:
+ *   "UseIntentions": {
+ *     "blondHair": {
+ *       "counterIndicative": 0,
+ *       "indicative": 0.03125
+ *     },
+ *     "lost10": {
+ *       "counterIndicative": 0,
+ *       "indicative": 0.125
+ *     }
  */
 public class FeatureIndicative implements Cloneable {
     private Indicative blondHair;

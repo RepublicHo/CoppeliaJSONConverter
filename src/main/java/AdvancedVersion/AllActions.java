@@ -2,7 +2,15 @@ package AdvancedVersion;
 /**
  * @Author Anthony Z.
  * @Date 10/7/2022
- * @Description: All actions towards all features.
+ * @Description: All actions towards all features.\
+ * Example:
+"FeatureSatisfaction": {
+    "nil": 0.198,
+    "negative": 0.23925,
+    "change": 0,
+    "avoid": 0,
+    "positive": 0.462
+}
  * In practice, we will be dealing with some specific problem and
  * the corresponding features, actions, and goals.
  *

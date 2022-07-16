@@ -10,6 +10,9 @@ import java.nio.file.Paths;
  * @Date 15/7/2022
  * @Description:
  *
+ * 1. Prototype Design Pattern is used to
+ * reduce the complexity of the code.
+ *
  */
 public class GetJSON{
     private String filePath = "src/main/resources/output.json";
@@ -78,6 +81,7 @@ public class GetJSON{
 
     /**
      * Parse all whose return type should be AllActions.
+     * Shallow clone can meet the requirements, given we wouldn't modify the data.
      * @param s
      * @return Clone of that object
      * @throws CloneNotSupportedException

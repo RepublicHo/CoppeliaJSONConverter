@@ -8,7 +8,16 @@ package AdvancedVersion;
  * the corresponding features, actions, and goals.
  *
  * An example:
- *
+"ActionTendencies": {
+    "blondHair": {
+        "avoid": 0,
+        "approach": 0.03125
+    },
+    "lost10": {
+        "keep": 0.125,
+        "ignore": 0,
+        "return": 0
+}
  */
 public class AllFeatures implements Cloneable{
     private BlondHairFeature blondHair;
