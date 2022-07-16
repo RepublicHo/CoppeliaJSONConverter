@@ -10,7 +10,7 @@ package AdvancedVersion;
  * An example:
  *
  */
-public class AllFeatures {
+public class AllFeatures implements Cloneable{
     private BlondHairFeature blondHair;
     private LostMoneyFeature lost10;
 
@@ -28,5 +28,16 @@ public class AllFeatures {
 
     public void setLost10(LostMoneyFeature lost10) {
         this.lost10 = lost10;
+    }
+
+    @Override
+    protected Object clone() throws CloneNotSupportedException {
+        AllFeatures allFeatures1 = null;
+        try{
+            allFeatures1 = (AllFeatures) super.clone();
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+        return allFeatures1;
     }
 }

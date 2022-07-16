@@ -17,20 +17,20 @@ public class DimensionDetails {
     private AllActions featureSatisfaction;
     private String action;
     private Indicative relevanceTotal;
-    private List<Indicative> similarity;
+    private FeatureIndicative similarity;
     private Indicative similarityTotal;
-    private List<Indicative> useIntentions;
+    private FeatureIndicative useIntentions;
     private Indicative engagementTotal;
-    private List<Feature> satisfaction;
+    private Features satisfaction;
     private double tradeoffTotal;
     private Indicative useIntentionsTotal;
-    private List<Indicative> relevance;
+    private FeatureIndicative relevance;
     private double satisfactionTotal;
-    private List<Indicative> valenceTotal;
+    private FeatureIndicative valenceTotal;
     private AllFeatures actionTendencies;
-    private List<Indicative> engagement;
-    private List<Indicative> valence;
-    private List<Feature> tradeoff;
+    private FeatureIndicative engagement;
+    private FeatureIndicative valence;
+    private Features tradeoff;
 
     public DimensionDetails(){}
     public AllActions getFeatureSatisfaction() {
@@ -65,31 +65,31 @@ public class DimensionDetails {
         return useIntentionsTotal;
     }
 
-    public List<Feature> getSatisfaction() {
+    public Features getSatisfaction() {
         return satisfaction;
     }
 
-    public List<Indicative> getEngagement() {
+    public FeatureIndicative getEngagement() {
         return engagement;
     }
 
-    public List<Indicative> getRelevance() {
+    public FeatureIndicative getRelevance() {
         return relevance;
     }
 
-    public List<Indicative> getSimilarity() {
+    public FeatureIndicative getSimilarity() {
         return similarity;
     }
 
-    public List<Indicative> getUseIntentions() {
+    public FeatureIndicative getUseIntentions() {
         return useIntentions;
     }
 
-    public List<Indicative> getValenceTotal() {
+    public FeatureIndicative getValenceTotal() {
         return valenceTotal;
     }
 
-    public List<Indicative> getValence() {
+    public FeatureIndicative getValence() {
         return valence;
     }
 
@@ -101,7 +101,7 @@ public class DimensionDetails {
         return action;
     }
 
-    public List<Feature> getTradeoff() {
+    public Features getTradeoff() {
         return tradeoff;
     }
 
@@ -117,11 +117,11 @@ public class DimensionDetails {
         this.engagementTotal = engagementTotal;
     }
 
-    public void setEngagement(List<Indicative> engagement) {
+    public void setEngagement(FeatureIndicative engagement) {
         this.engagement = engagement;
     }
 
-    public void setRelevance(List<Indicative> relevance) {
+    public void setRelevance(FeatureIndicative relevance) {
         this.relevance = relevance;
     }
 
@@ -129,7 +129,7 @@ public class DimensionDetails {
         this.relevanceTotal = relevanceTotal;
     }
 
-    public void setSatisfaction(List<Feature> satisfaction) {
+    public void setSatisfaction(Features satisfaction) {
         this.satisfaction = satisfaction;
     }
 
@@ -137,7 +137,7 @@ public class DimensionDetails {
         this.satisfactionTotal = satisfactionTotal;
     }
 
-    public void setSimilarity(List<Indicative> similarity) {
+    public void setSimilarity(FeatureIndicative similarity) {
         this.similarity = similarity;
     }
 
@@ -149,11 +149,11 @@ public class DimensionDetails {
         this.tradeoffTotal = tradeoffTotal;
     }
 
-    public void setUseIntentions(List<Indicative> useIntentions) {
+    public void setUseIntentions(FeatureIndicative useIntentions) {
         this.useIntentions = useIntentions;
     }
 
-    public void setTradeoff(List<Feature> tradeoff) {
+    public void setTradeoff(Features tradeoff) {
         this.tradeoff = tradeoff;
     }
 
@@ -161,11 +161,11 @@ public class DimensionDetails {
         this.useIntentionsTotal = useIntentionsTotal;
     }
 
-    public void setValence(List<Indicative> valence) {
+    public void setValence(FeatureIndicative valence) {
         this.valence = valence;
     }
 
-    public void setValenceTotal(List<Indicative> valenceTotal) {
+    public void setValenceTotal(FeatureIndicative valenceTotal) {
         this.valenceTotal = valenceTotal;
     }
 

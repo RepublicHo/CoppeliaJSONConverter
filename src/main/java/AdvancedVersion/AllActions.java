@@ -17,20 +17,12 @@ package AdvancedVersion;
  * are just examples. When dealing with more complex
  * world affective model, the fields should be modified.
  */
-public class AllActions {
+public class AllActions implements Cloneable{
     private double nil;
     private double negative;
     private double change;
     private double avoid;
     private double positive;
-
-    AllActions(double nil, double negative, double change, double avoid, double positive){
-        this.nil = nil;
-        this.negative = negative;
-        this.change = change;
-        this.positive = positive;
-        this.avoid = avoid;
-    }
 
     public double getNil() {
         return nil;
@@ -73,4 +65,14 @@ public class AllActions {
     }
 
 
+    @Override
+    protected Object clone() {
+        AllActions allActions = null;
+        try{
+            allActions = (AllActions) super.clone();
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+        return allActions;
+    }
 }

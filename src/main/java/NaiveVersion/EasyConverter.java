@@ -12,14 +12,13 @@ import java.util.Map;
 /**
  * @Author Anthony Z.
  * @Date 9/7/2022
- * @Description: This class has no relation with other class,
+ * @Description: This class has no relation with other classes,
  *
  * Most simple version to convert String from outout.json to map.
  * But it cannot meet the complex requirements in this project.
  *
  */
 public class EasyConverter {
-
 
     public static String readFileAsString(String file) throws IOException {
         return new String(Files.readAllBytes(Paths.get(file)));

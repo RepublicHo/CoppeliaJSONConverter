@@ -36,6 +36,7 @@ public class EasyConverter2 {
 
     public static void main(String[] args) {
         Map<String, Object> objectMap = readJsonFile("src/main/resources/output.json");
+        // test
         System.out.println(objectMap.get("FeatureSatisfaction"));
         System.out.println(objectMap.get("Similarity"));
         System.out.println(objectMap.get("SatisfactionTotal"));
