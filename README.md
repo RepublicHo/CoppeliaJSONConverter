@@ -1,2 +1,2 @@
 # CoppeliaJSONConverter
- Convert JSON to get all the variables needed. 
+Parse JSON to get all the variables needed. 
